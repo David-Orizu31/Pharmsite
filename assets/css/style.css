@@ -4061,8 +4061,7 @@ input[disabled] {
 		  margin-top: 40px !important;
 	  }
 
-	  html, body {
-		  
+	html, body {	  
 	max-width: 100% !important;
     overflow-x: hidden !important;
 	  }
