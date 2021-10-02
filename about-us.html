@@ -22,6 +22,10 @@
 
 	<!-- PrettyPhoto -->
 	<link rel="stylesheet" type="text/css" href="assets/css/prettyPhoto.css">
+		<!-- AOS -->
+		<link rel="stylesheet" href="aos/aos.css">
+		<!-- Fancy Box CSS -->
+		<link rel="stylesheet" href="fancybox-master/fancybox-master/dist/jquery.fancybox.min.css">
 </head>
 <body>
 	<div class="labora_page_loader" style="display: none;"></div>
@@ -154,7 +158,11 @@
 
 						<div class="one_third">
 							<figure>
-								<img src="assets/images/laugh.jpg" alt="">
+								<div data-aos="fade-right" data-aos-duration="1500">
+									<a href="assets/images/about-ph.jpg" data-fancybox="gallery" data-caption="Randhawa Pharmacy">
+								<img src="assets/images/about-ph.jpg" alt="about pharmacy" height="300">
+							</a>
+							</div>
 							</figure>
 						</div><!-- .one_third-->
 
@@ -176,27 +184,26 @@
 				  <div class="section_inner">
 						<div class="divider thin" style="margin:80px 0;height: 1px;"></div>
 
-						<div class="one_half">
-							<div class="one_half">
+							<div class="one_half about-div" align="center" data-aos="zoom-in-right" data-aos-duration="1500" >
 								<div class="icon-plain">
-									<span style="color:#3232b4"><i class="fa fa-sliders" style="font-size: 45px;"></i></span>
+									<span style="color:rgb(228, 226, 226)"><i class="fa fa-sliders" style="font-size: 45px;"></i></span>
 								</div>
 								<h5><strong>MEASURING VALUES</strong></h5>
 								<p>To provide high -quality essential medicines at affordable prices to meet global health needs.</p>
 							</div><!-- .one_half-->
 
-							<div class="one_half last">
+							<div class="one_half last about-div" align="center" data-aos="fade-down" data-aos-duration="1700" >
 								<div class="icon-plain">
-									<span style="color:#3232b4"><i class="fa fa-user" style="font-size: 45px;"></i></span>
+									<span style="color:rgb(228, 226, 226)"><i class="fa fa-user" style="font-size: 45px;"></i></span>
 								</div>
 								<h5><strong>VISION</strong></h5>
 								<p>To be the foremost pharmaceutical company in the World, delivering sustainable growth and creating value for our customers and stakeholders.</p>
 							</div><!-- .one_half-->
 
 
-							<div class="one_half">
+							<div class="one_half about-div" align="center" data-aos="flip-left" data-aos-duration="1800" >
 								<div class="icon-plain">
-									<span style="color:#3232b4"><i class="fa fa-diamond" style="font-size: 45px;"></i></span>
+									<span style="color:rgb(228, 226, 226)"><i class="fa fa-diamond" style="font-size: 45px;"></i></span>
 								</div>
 								<h5><strong>CORPORATE VALUES</strong></h5>
 								<p>Quality driven – We have a passion for quality.
@@ -204,16 +211,20 @@ United – Team work makes the dream work. We drive success through strong colla
 Innovative – Through continuous innovation, we challenge ourselves to meet the needs of our consumers.</p>
 							</div><!-- .one_half-->
 
-							<div class="one_half last">
+							<div class="one_half last about-div" align="center" data-aos="zoom-out" data-aos-duration="2000" >
 								<div class="icon-plain">
-									<span style="color:#3232b4"><i class="fa fa-globe" style="font-size: 45px;"></i></span>
+									<span style="color:rgb(228, 226, 226)"><i class="fa fa-globe" style="font-size: 45px;"></i></span>
 								</div>
 								<h5><strong>OUR EXPERIENCE</strong></h5>
 								<p>Our customers are extremely important to us. We strive to consistently meet or exceed our customers’ expectation. Over time, we have cultivated a culture of continuous improvement where all employees are actively engaged in improving the company.</p>
 							</div><!-- .one_half last-->
-						</div><!-- .one_half-->
+						
+						<div data-aos="fade-left" data-aos-duration="1500" align="center">
+							<a href="assets/images/hwn.jpg" data-fancybox="gallery" data-caption="Randhawa Pharmacy">
+							<img src="assets/images/hwn.jpg" width="673" height="447" style="margin-top: 30px;">	
+						</a>	
+									  </div>
 
-						<div class="one_half last" style=""><img src="assets/images/hwn.jpg" width="673" height="447">					  </div>
 						<!-- .one_half-->
 				  </div><!-- .section_inner-->
 				</div><!-- .section_row-->
@@ -344,6 +355,14 @@ Innovative – Through continuous innovation, we challenge ourselves to meet the
 			responsive: false
 		});
 	});
+</script>
+
+    <!-- Fancy Box JS -->
+    <script src="fancybox-master/fancybox-master/dist/jquery.fancybox.min.js"></script>
+
+<script src="aos/aos.js"></script>
+<script>
+	  AOS.init();
 </script>
 </body>
 
