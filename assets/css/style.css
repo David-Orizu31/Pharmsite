@@ -4053,5 +4053,20 @@ input[disabled] {
 	  font-size: 18px;
 	  line-height: 2em;
   }
+
+  @media (max-width:1000px) {
+	  .google-trans {
+		  float: left;
+		  margin-top: 40px !important;
+	  }
+  }
+
+  @media (max-width:800px) {
+	  .google-trans {
+		  display: block !important;
+		  margin-top: -10px !important;
+		  float: right !important;
+	  }
+  }
   
 
