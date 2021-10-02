@@ -232,7 +232,7 @@ html[xmlns] .flexslider .slides {
 }
 
 @media screen and (max-width: 860px) {
-	.flex-title h2 { font-size: 24px; line-height: 28px; letter-spacing: normal; }
+	.flex-title h2 { font-size: 30px; line-height: 40px; letter-spacing: normal; }
 	.flex-title h4 { font-size: 16px; line-height: 18px; }
 	.flex-caption-inner { background-color: transparent; top: 40px; bottom: 40px; }
 }

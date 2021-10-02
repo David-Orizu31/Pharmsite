@@ -26,6 +26,10 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/flexslider.css">
 	<!-- Owl Carousel -->
 	<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
+	<!-- AOS -->
+	<link rel="stylesheet" href="aos/aos.css">
+    <!-- Fancy Box CSS -->
+	<link rel="stylesheet" href="fancybox-master/fancybox-master/dist/jquery.fancybox.min.css">
 </head>
 <body>
 	<div class="labora_page_loader" style="display: none;"></div>
@@ -95,7 +99,7 @@
 				<div class="iva-mobile-menu">
 				  	<ul class="iva_mmenu">
 						<li class="current_page_item"><a href="index-2.html">Home</a></li>
-						<li><a href="#">Headers<span class="iva-children-indenter"><i class="fa fa fa-angle-down"></i></span></a>
+						<!--<li><a href="#">Headers<span class="iva-children-indenter"><i class="fa fa fa-angle-down"></i></span></a>
 							<ul class="sub-menu">
 								<li><a href="header-style2.html">Header Style 2</a></li>
 								<li><a href="header-style3.html">Header Style 3</a></li>
@@ -103,7 +107,7 @@
 								<li><a href="header-fixed.html">Header Fixed</a></li>
 								<li><a href="vertical-menu.html">Vertical Left Menu</a></li>
 							</ul>
-						</li>
+						</li> -->
 						<li><a href="about-us.html">About Us<span class="iva-children-indenter"><i class="fa fa fa-angle-down"></i></span></a>
 							<ul class="sub-menu">
 								<li><a href="company-history.html">Company</a></li>
@@ -132,7 +136,8 @@
 				<div class="flexslider">
 				<ul class="slides">
 					<li>
-					<img alt="Evaluation of the Current Safety" src="assets/images/slide-1.jpg">
+						<div class="first-slide">
+					<!-- <img alt="Evaluation of the Current Safety" src="assets/images/slide-1.jpg"> -->
 					<div class="flex-caption fs-left flex-caption-anim">
 						<div class="flex-caption-inner">
 							<div class="flex-title">
@@ -141,20 +146,23 @@
 							</div><!-- .flex-title -->
 						</div><!-- .flex-caption-inner -->
 					</div><!-- .flex-caption -->
+				</div>
 					</li>
 					<li>
-						<img alt="Laboratory Priority Services Delivered" src="assets/images/slide-2.jpg">
+						<div class="second-slide">
+						<!-- <img alt="Laboratory Priority Services Delivered" src="assets/images/slide-2.jpg"> -->
 						<div class="flex-caption fs-right">
 							<div class="flex-caption-inner">
 								<div class="flex-title">
 									<h2>Laboratory Priority Services Delivered</h2>
 									<div class="flex-content">
 										<p>We are continuously striving for improvement and innovation in the healthcare sector.</p>
-										<a href="#" data-btn-bg="#990b6e" data-btn-hoverbg="#8c0038" data-btn-color="#ffffff" data-btn-hovercolor="#f5f5f5" style="background-color:#990b6e; color:#ffffff;" class="btn right large rounded"><span class="btn-details"><span class="btn-text">View Services<span class="btn-sub-text"></span></span></span></a>
+										<a href="#" data-btn-bg="#3232b4" data-btn-hoverbg="#8c0038" data-btn-color="#ffffff" data-btn-hovercolor="#f5f5f5" style="background-color:#3232b4; color:#ffffff;" class="btn right large rounded"><span class="btn-details"><span class="btn-text">View Services<span class="btn-sub-text"></span></span></span></a>
 									</div>
 								</div><!-- .flex-title -->
 							</div><!-- .flex-caption-inner -->
 						</div><!-- .flex-caption -->
+					</div>
 					</li>
 				</ul>
 				<ul class="flex-direction-nav">
@@ -171,25 +179,42 @@
 				<div class="section_inner">
 
      				<div class="at-fancy-heading-v1 textcenter">
-      					<h3>Randhawa Pharma is a top Medical Laboratory Research, Pharmaceutical, medicine, and vaccine company with  <strong style="color: #990b6e;"> many years of experience</strong> focusing on value medicine and a vaccine to provide quality needs.</h3>
-						<span class="at-fancy-heading-v1-sep"></span>
-     				</div><!-- .fancy-heading-->
+                       <h2><b>Welcome to Randhawa Pharma</b></h2>
+					</div><!-- .fancy-heading-->
+
+					<div data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+					<div class="flex-container">
+						<div class="flex-item-left">
+							<a href="assets/images/pharmacy-1.png" data-fancybox="gallery" data-caption="Randhawa Pharmacy">
+							<img src="assets/images/pharmacy-1.png" alt="About Pharmacy"> 
+						</a>
+					</div>
+						 <div class="flex-item-right about-pharm">
+      					<h3>Randhawa Pharma is a top Medical Laboratory Research, Pharmaceutical, medicine, and vaccine company with  <strong> many years of experience</strong> focusing on value medicine and a vaccine to provide quality needs.</h3>
+					</div>
+				</div>
+			</div>
+						<!-- <span class="at-fancy-heading-v1-sep"></span> -->
 
 					<div class="demo_space" style="height:80px;"></div>
 
-					<div class="one_half">
-						<img src="assets/images/photo1.jpg" alt="">
-					</div><!-- .one_half-->
-
-					<div class="one_half end">
+					
+					<div class="one_half" data-aos="fade-up" data-aos-duration="1500">
 						<div class="at-fancy-heading-v1 is-bold">
 							<h2>Achieving Quality and Excellence</h2>
 						</div>
-						<p><strong>Having a new name is just the beginning.</strong></p>
-						<p>Our dedication to quality in everything we do is uncompromising, and covers every stage of the development, production and marketing of our medicines: from the supply of materials through manufacturing and approval by the strictest authorities in the world.</p>
-						<p>Our state-of-the-art manufacturing facilities feature the most advanced testing equipment to guarantee the quality of our products. Equipment is tested and certified, and every manufacturing process is validated. All supplier procedures are strictly supervised to ensure that only the highest grade materials are used in our products.</p> 
+						<h4 class="ph-subhead"><strong>Having a new name is just the beginning.</strong></h4>
+						<p class="ph-p">Our dedication to quality in everything we do is uncompromising, and covers every stage of the development, production and marketing of our medicines: from the supply of materials through manufacturing and approval by the strictest authorities in the world.</p>
+						<p class="ph-p">Our state-of-the-art manufacturing facilities feature the most advanced testing equipment to guarantee the quality of our products. Equipment is tested and certified, and every manufacturing process is validated. All supplier procedures are strictly supervised to ensure that only the highest grade materials are used in our products.</p> 
 						
 					</div>
+
+					<div class="one_half end" data-aos="zoom-in-left" data-aos-duration="1500">
+						<a href="assets/images/ph-quality.jpg" data-fancybox="gallery" data-caption="Randhawa Pharmacy">
+						<img src="assets/images/ph-quality.jpg" alt="">
+					</a>
+					</div><!-- .one_half-->
+
 
 				</div><!-- .section_inner -->
 			</div><!-- section_row -->
@@ -198,7 +223,7 @@
 				<div class="section_inner">
 
 					<div class="one_fourth">
-						<div class="serviceIcn_style1">
+						<div class="serviceIcn_style1" align="center">
 							<div class="services-icon">
 								<i class="services_icon1 fa fa-fw fa-2x fa-hospital-o"></i>
 							</div>
@@ -209,7 +234,7 @@
 						</div>
 					</div><!-- .one_fourth-->
 					<div class="one_fourth">
-						<div class="serviceIcn_style1">
+						<div class="serviceIcn_style1" align="center">
 							<div class="services-icon">
 								<i class="services_icon1 fa fa-fw fa-2x fa-stethoscope"></i>
 							</div>
@@ -220,7 +245,7 @@
 						</div>
 					</div><!-- .one_fourth-->
 					<div class="one_fourth">
-						<div class="serviceIcn_style1">
+						<div class="serviceIcn_style1" align="center">
 							<div class="services-icon">
 								<i class="services_icon1 fa fa-fw fa-2x fa-money"></i>
 							</div>
@@ -231,7 +256,7 @@
 						</div>
 					</div><!-- .one_fourth-->
 					<div class="one_fourth last">
-						<div class="serviceIcn_style1">
+						<div class="serviceIcn_style1" align="center">
 							<div class="services-icon">
 								<i class="services_icon1 fa fa-fw fa-2x fa-envelope-o"></i>
 							</div>
@@ -249,11 +274,14 @@
 				<div class="partial-inner">
 					<div class="partial-image partial-image-props">
 						<figure>
-							<img src="assets/images/photo2.jpg" alt="">
+							<a href="assets/images/ph-lab.jpeg" data-fancybox="gallery" data-caption="Randhawa Pharmacy">
+							<img src="assets/images/ph-lab.jpeg" alt="">
+						</a>
 						</figure>
 					</div>
 					<div class="partial-content" style="background-color:#e4ebef;">
 						<div class="ps_content clearfix">
+							<div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
 							<div class="at-fancy-heading-v1 textleft">
 								<h2 style="font-weight: 800;">We Are Trusted By World's Leading Companies</h2>
 								<span class="at-fancy-heading-v1-sep"></span>
@@ -266,6 +294,7 @@
 								<p>Our commitment and drive has propelled our growth from a single marketing company to a world class manufacturing facility. From working with small businesses to big conglomerates<br></p>
 							</div>
 						</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -273,37 +302,35 @@
 
 			<div class="section_row clearfix">
 			  <div class="section_inner">
-                <div class="three_fourth">
                   <div class="at-fancy-heading-v1">
                     <h3><strong>NEWS &amp; EVENTS</strong></h3>
                   </div>
                   <article id="post-2580" class="post one_third ">
                     <div class="at-blog-sc-v1">
                       <div class="at-post-content">
-                        <h2 class="at-entry-title"> <a href="blog-single.html" rel="bookmark">LIFESTYLE CHANGES TO MANAGE A URINARY TRACT INFECTION (UTI)</a> </h2>
-                        <div class="at-entry-content"> LIFESTYLE CHANGES TO MANAGE A URINARY TRACT INFECTION (UTI) Urinary tract infections (UTIs) are very common, particularly in women. Around one in two women and one... </div>
+                        <h2 class="at-entry-title"> <a href="blog-single.html" rel="bookmark"><b>LIFESTYLE CHANGES TO MANAGE A URINARY TRACT INFECTION (UTI)</a> </b></h2>
+                        <div class="at-entry-content ph-p"> LIFESTYLE CHANGES TO MANAGE A URINARY TRACT INFECTION (UTI) Urinary tract infections (UTIs) are very common, particularly in women. Around one in two women and one... </div>
                       </div>
                     </div>
                   </article>
                   <article id="post-2577" class="post one_third">
                     <div class="at-blog-sc-v1">
                       <div class="at-post-content">
-                        <h2 class="at-entry-title"> <a href="blog-single.html" rel="bookmark">PROVEN HEALTH BENEFITS OF GARLIC</a> </h2>
-                        <div class="at-entry-content"> “Let food be thy medicine, and medicine be thy food.” Those are famous words from the ancient Greek physician Hippocrates, often called the father of Western </div>
+                        <h2 class="at-entry-title"> <a href="blog-single.html" rel="bookmark"><b>PROVEN HEALTH BENEFITS OF GARLIC</b></a> </h2>
+                        <div class="at-entry-content ph-p"> “Let food be thy medicine, and medicine be thy food.” Those are famous words from the ancient Greek physician Hippocrates, often called the father of Western </div>
                       </div>
                     </div>
                   </article>
                   <article id="post-2320" class="post one_third last">
                     <div class="at-blog-sc-v1">
                       <div class="at-post-content">
-                        <h2 class="at-entry-title"> <a href="blog-single.html" rel="bookmark">CHLOROPHYLL FOR TACKLING MOUTH AND BODY ODOUR</a> </h2>
-                        <div class="at-entry-content"> Is anything worse than seeing people who turn their faces away from you when you are talking to them? Body odour and mouth bad odour can. </div>
+                        <h2 class="at-entry-title"> <a href="blog-single.html" rel="bookmark"><b>CHLOROPHYLL FOR TACKLING MOUTH AND BODY ODOUR</b></a> </h2>
+                        <div class="at-entry-content ph-p"> Is anything worse than seeing people who turn their faces away from you when you are talking to them? Body odour and mouth bad odour can. </div>
                       </div>
                     </div>
                   </article>
-                </div>
 			    <!-- three_fourth -->
-                <div class="one_fourth last"><img src="assets/images/001.jpg" width="283" height="429"></div>
+                <!-- <div class="one_fourth last"><img src="assets/images/001.jpg" width="283" height="429"></div> -->
 			    <!-- fancybox -->
               </div>
 			  <!-- .section_inner-->
@@ -408,6 +435,14 @@ jQuery(document).ready(function($) {
 	itemsMobile : [479,2]
 	});
 });
+</script>
+
+    <!-- Fancy Box JS -->
+    <script src="fancybox-master/fancybox-master/dist/jquery.fancybox.min.js"></script>
+
+<script src="aos/aos.js"></script>
+<script>
+	  AOS.init();
 </script>
 </body>
 

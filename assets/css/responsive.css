@@ -379,7 +379,7 @@
 
 	#iva-mobile-nav-icon{ margin:0; }
 	.fixed-header { position:relative; }
-	.flexslider { display: none; }
+	
 	.widget-left-s3 { display: none; }
 	.widget-left-s3-mobile { background-color: #353535; color: #ffffff; }
 	.widget-left-s3-mobile .widget-left-s3 { width: 90%; float: none; display: table;  }
@@ -592,7 +592,7 @@
 	.at-career-table th:nth-child(2) { display: none; }
 
 	#iva-mobile-nav-icon{ margin:0; }
-	.flexslider { display: none; }
+	
 	.widget-left-s3 { display: none; }
 	.widget-left-s3-mobile { background-color: #353535; color: #ffffff; }
 	.widget-left-s3-mobile .widget-left-s3 { width: 90%; float: none; display: table;  }
@@ -805,7 +805,7 @@
 
 	#iva-mobile-nav-icon{ margin:0; }
 	.fixed-header { position:relative; }
-	.flexslider { display: none; }
+	
 	.widget-left-s3 { display: none; }
 	.widget-left-s3-mobile { background-color: #353535; color: #ffffff; }
 	.widget-left-s3-mobile .widget-left-s3 { width: 90%; float: none; display: table;  }
@@ -1005,7 +1005,7 @@
 	#iva-mobile-nav-icon{ margin:0; }
 	img { width:auto; max-width:100%; height:auto;}
 	figure img { width: auto; max-width: 100%; height: auto; }
-	.flexslider { display: none; }
+	
 	.widget-left-s3 { display: none; }
 	.widget-left-s3-mobile { background-color: #353535; color: #ffffff; }
 	.widget-left-s3-mobile .widget-left-s3 { width: 90%; float: none; display: table;  }
