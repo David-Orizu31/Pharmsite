@@ -47,8 +47,6 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	vertical-align: baseline;
-	max-width: 100% !important;
-    overflow-x: hidden !important;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -4061,6 +4059,12 @@ input[disabled] {
 	  .google-trans {
 		  float: left;
 		  margin-top: 40px !important;
+	  }
+
+	  html, body {
+		  
+	max-width: 100% !important;
+    overflow-x: hidden !important;
 	  }
   }
 
