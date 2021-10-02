@@ -47,8 +47,8 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	vertical-align: baseline;
-	max-width: 100%;
-    overflow-x: hidden;
+	max-width: 100% !important;
+    overflow-x: hidden !important;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
